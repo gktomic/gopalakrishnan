@@ -5,11 +5,13 @@ import { Portfolio } from "./Portfolio";
 import { Technologies } from "./Technologies";
 
 export function Home() {
-    return <div className="h-screen">
+    return <div className="h-screen flex flex-col align-items justify-start">
         <Navbar />
-        <About />
-        <Technologies />
-        <Portfolio />
-        <Contact />
+        <div className="p-10">
+            <About />
+            <Technologies />
+            <Portfolio />
+            <Contact />
+        </div>
     </div>
 }
