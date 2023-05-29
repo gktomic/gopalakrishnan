@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function Card(props: any) {
     return <div className="p-5">
-        <div className="max-w-sm rounded overflow-hidden bg-white p-6">
+        <div className="rounded overflow-hidden bg-white p-6">
             <h3 className="font-medium text-xl py-2 text-gray-500 uppercase">{props.title}</h3>
             <p className="text-gray-700 text-base py-1">
                 {props.description}
