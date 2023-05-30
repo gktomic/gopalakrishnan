@@ -6,7 +6,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
             <div className="flex items-center justify-center">
                 <div className="flex-shrink-0">
-                    <div className="flex items-center justify-center gap-3">
+                    <div className="flex items-center justify-center gap-3 text-white">
                         <FaTerminal className="text-5xl" />
                         <a href="#" className="font-medium text-lg">Gopalakrishnan PV</a>
                     </div>
