@@ -17,7 +17,7 @@ export function Navbar() {
                 <div className="ml-10 flex items-baseline space-x-4">
                     <NavbarLink link="#" text="About"></NavbarLink>
                     <NavbarLink link="#" text="Portfolio"></NavbarLink>
-                    <NavbarLink link="#" text="Technologies"></NavbarLink>
+                    <NavbarLink link="#" text="Skills"></NavbarLink>
                     <NavbarLink link="#" text="Achievements"></NavbarLink>
                 </div>
             </div>
