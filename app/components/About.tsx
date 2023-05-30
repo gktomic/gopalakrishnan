@@ -27,7 +27,7 @@ export function About() {
                     icon={<FaGithub />}
                     text={'GitHub'} />
             </a>
-            <a href="#" target={"_blank"}>
+            <a href="mailto:gopalakrishnan1505@gmail.com" target={"_blank"}>
                 <Button
                     bgcolor='bg-pink-600'
                     icon={<FaMailBulk />}
