@@ -1,7 +1,8 @@
 import { FaTrophy } from "react-icons/fa";
 
 export function Achievements() {
-    return <div>
+
+    return <div >
         <h1 className="mt-10 text-3xl font-medium uppercase text-white py-5 text-center underline underline-offset-[16px] decoration-4 decoration-dotted decoration-teal-500">Achievements</h1>
         <ul className="mt-5 text-white">
             <li className="flex items-center gap-5 p-2">
