@@ -8,7 +8,7 @@ import { Skills } from "./Skills";
 export function Home() {
     return <div className="h-screen flex flex-col align-items justify-start">
         <Navbar />
-        <div className="p-8">
+        <div className="p-5 mt-5">
             <About />
             <Skills />
             <Portfolio />
