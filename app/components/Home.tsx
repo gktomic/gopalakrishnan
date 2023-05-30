@@ -1,5 +1,6 @@
 import { About } from "./About";
 import { Achievements } from "./Achievements";
+import Footer from "./Footer";
 import { Navbar } from "./Navbar";
 import { Portfolio } from "./Portfolio";
 import { Skills } from "./Skills";
@@ -13,5 +14,6 @@ export function Home() {
             <Portfolio />
             <Achievements />
         </div>
+        <Footer />
     </div>
 }
