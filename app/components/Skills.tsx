@@ -1,8 +1,8 @@
 import Tile from "../elements/Tile";
 
-export function Technologies() {
+export function Skills() {
     return <div>
-        <h1 className="mt-10 text-3xl font-medium uppercase text-white py-5 text-center underline underline-offset-[16px] decoration-4 decoration-dotted decoration-teal-500">Technologies</h1>
+        <h1 className="mt-10 text-3xl font-medium uppercase text-white py-5 text-center underline underline-offset-[16px] decoration-4 decoration-dotted decoration-teal-500">Skills</h1>
         <div className="mt-5 flex flex-row justify-center items-start flex-wrap min-w-full gap-2 max-w-1/2">
             <Tile title="Web Automation (Selenium)" size="32" color="bg-sky-600" rating="4" />
             <Tile title="API Automation (REST)" size="32" color="bg-pink-600" rating="4" />
