@@ -36,7 +36,10 @@ export function About() {
         </div>
 
         <div className="w-full flex align-items justify-center pt-5 gap-3">
-            <a href="https://www.linkedin.com/in/gopalakrishnanpvs/" target={"_blank"}>
+            <a href="/files/Gopalakrishnan-Resume.pdf"
+                download="Gopalakrishnan-Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer">
                 <Button
                     bgcolor='bg-green-700'
                     icon={<FaDownload />}
