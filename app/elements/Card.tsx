@@ -14,19 +14,23 @@ export default function Card(props: any) {
         <div className=" px-5">
             <Image className="w-full h-full shadow-md shadow-gray-500" src={props.thumbnail} alt="" />
         </div>
-        <div className="flex align-items justify-center py-5 gap-2">
-            <a href={props.demolink} target="_blank">
-                <Button
-                    bgcolor='bg-teal-600'
-                    icon={<FaSearch />}
-                    text={'Demo'} />
-            </a>
-            <a href={props.codelink} target="_blank">
-                <Button
-                    bgcolor='bg-gray-600'
-                    icon={<FaCode />}
-                    text={'View Code'} />
-            </a>
+        <div className="flex align-center justify-center py-5 gap-2">
+            {
+                props.demolink && <a href={props.demolink} target="_blank">
+                    <Button
+                        bgcolor='bg-teal-600'
+                        icon={<FaSearch />}
+                        text={'Demo'} />
+                </a>
+            }
+            {
+                props.codelink && <a href={props.codelink} target="_blank">
+                    <Button
+                        bgcolor='bg-gray-600'
+                        icon={<FaCode />}
+                        text={'View Code'} />
+                </a>
+            }
         </div>
     </div >
 }
