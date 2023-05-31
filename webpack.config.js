@@ -4,13 +4,13 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(png|jp(e*)g|svg|gif)$/,
-                include: [Path.join(__dirname, "src")],
+                test: /\.(png|jp(e*)g|svg|gif|pdf)$/,
+                include: [Path.join(__dirname, "assets")],
                 use: [
                     {
                         loader: 'file-loader',
                         options: {
-                            name: 'images/[name].[ext]',
+                            name: '[name].[ext]',
                         },
                     },
                 ],
