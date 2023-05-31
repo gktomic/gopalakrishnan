@@ -4,7 +4,7 @@ import Image from "next/image";
 import Button from "./Button";
 
 export default function Card(props: any) {
-    return <div className="rounded-lg overflow-hidden bg-white max-w-md">
+    return <div className="rounded-lg overflow-hidden bg-white max-w-xl">
         <div className="px-5 py-4 w-full">
             <h3 className="font-medium text-md py-2 text-sky-600 uppercase">{props.title}</h3>
             <p className="text-sm text-gray-500">
