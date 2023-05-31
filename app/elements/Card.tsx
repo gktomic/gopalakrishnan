@@ -11,9 +11,12 @@ export default function Card(props: any) {
                 {props.description}
             </p>
         </div>
-        <div className=" px-5">
-            <Image className="w-full h-full shadow-md shadow-gray-500" src={props.thumbnail} alt="" />
-        </div>
+        {
+            props.thumbnail_path && <div className="px-5">
+                <Image className="w-full h-full shadow-md shadow-gray-500" width="300" height="200" src={props.thumbnail_path} alt="" />
+            </div>
+        }
+
         <div className="flex align-center justify-center py-5 gap-2">
             {
                 props.demolink && <a href={props.demolink} target="_blank">

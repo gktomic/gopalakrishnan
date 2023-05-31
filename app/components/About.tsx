@@ -1,6 +1,5 @@
 import { FaDownload, FaGithub, FaLinkedin, FaMailBulk, FaTerminal } from "react-icons/fa";
 import Button from "../elements/Button";
-// const Resume = require('../assets/resume.pdf');
 
 export function About() {
     return <div className="text-center">
@@ -37,10 +36,7 @@ export function About() {
         </div>
 
         <div className="w-full flex align-items justify-center pt-5 gap-3">
-            <a href=""
-                download="Gopalakrishnan-Resume.pdf"
-                target="_blank"
-                rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/gopalakrishnanpvs/" target={"_blank"}>
                 <Button
                     bgcolor='bg-green-700'
                     icon={<FaDownload />}
