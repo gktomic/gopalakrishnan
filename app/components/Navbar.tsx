@@ -9,16 +9,22 @@ export function Navbar() {
         scrollTo('#skillsSection')
     }
 
-    function scrollToAbout() {
-        scrollTo('#aboutSection')
-    }
-
     function scrollToPortfolio() {
         scrollTo('#portfolioSection')
     }
 
     function scrollToAchievements() {
         scrollTo('#achievementsSection')
+    }
+
+    function scrollToTop() {
+        if (typeof window !== 'undefined') {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            })
+        }
     }
 
     function scrollTo(querySelector: string) {
@@ -43,7 +49,7 @@ export function Navbar() {
             </div>
             <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                    <NavbarLink onClick={scrollToAbout} text="About"></NavbarLink>
+                    <NavbarLink onClick={scrollToTop} text="About"></NavbarLink>
                     <NavbarLink onClick={scrollToSkills} text="Skills"></NavbarLink>
                     <NavbarLink onClick={scrollToPortfolio} text="Portfolio"></NavbarLink>
                     <NavbarLink onClick={scrollToAchievements} text="Achievements"></NavbarLink>
