@@ -2,7 +2,7 @@ import { FaDownload, FaGithub, FaLinkedin, FaMailBulk, FaTerminal } from "react-
 import Button from "../elements/Button";
 
 export function About() {
-    return <div className="text-center">
+    return <div className="text-center" id="aboutSection">
         <FaTerminal className="text-8xl text-white w-full" />
         <div className="flex flex-col items-center justify-center pt-5">
             <h1 className="text-4xl text-white pr-3 font-medium">I&apos;m Gopalakrishnan.<span className="uppercase animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-3 text-4xl text-white leading-tight"></span></h1>

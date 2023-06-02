@@ -7,8 +7,10 @@ import { Skills } from "./Skills";
 
 export function Home() {
     return <div className="h-screen flex flex-col align-items justify-start">
-        <Navbar />
-        <div className="p-5 mt-5">
+        <div className="w-full fixed top-0 z-50">
+            <Navbar />
+        </div>
+        <div className="mt-20 p-5">
             <About />
             <Skills />
             <Portfolio />
