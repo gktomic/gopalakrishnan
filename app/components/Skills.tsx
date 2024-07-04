@@ -6,8 +6,13 @@ export function Skills() {
         <div className="mt-5 flex flex-row justify-center items-start flex-wrap min-w-full gap-2">
             <Tile title="Web Automation (Selenium)" rating="5" />
             <Tile title="Desktop Automation (WinAppDriver)" rating="4" />
+            <Tile title="Squish" rating="3" />
+            <Tile title="SpecFlow" rating="3" />
             <Tile title="API Automation (REST)" rating="4" />
+            <Tile title="Postman" rating="4" />
+            <Tile title="Swagger" rating="4" />
             <Tile title="Mobile Automation (Appium)" rating="3" />
+            <Tile title="PostgreSQL" rating="3" />
             <Tile title="Java" rating="3" />
             <Tile title="C#" rating="4" />
             <Tile title="Python" rating="4" />
@@ -23,9 +28,11 @@ export function Skills() {
             <Tile title="JavaScript" rating="3" />
             <Tile title="Angular" rating="3" />
             <Tile title="React" rating="3" />
+            <Tile title="Vue" rating="3" />
             <Tile title="Tailwind" rating="3" />
+            <Tile title="Linux" rating="3" />
             <Tile title="Nodejs" rating="2" />
-            <Tile title="Linux" rating="1" />
+            <Tile title="Flutter" rating="2" />
         </div>
     </div>
 }
