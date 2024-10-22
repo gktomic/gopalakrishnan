@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Summary
 
-## Getting Started
+Portfolio application developed in Next.js and Tailwind CSS and hosted in vercel.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Responsive
+- Jumbotron buttons for contact
+- Reusable skill tiles with ratings
+- Portfolio projects with demo and code buttons
+- Smooth scrolling
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Screenshots
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Header Section
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![image](https://github.com/user-attachments/assets/c5d795cd-d761-45e0-b890-78dc063db4f3)
 
-## Learn More
+### Skills Section
 
-To learn more about Next.js, take a look at the following resources:
+![image](https://github.com/user-attachments/assets/f097c5bb-e984-456d-a21c-184865944799)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Portfolio Section
 
-## Deploy on Vercel
+![image](https://github.com/user-attachments/assets/d14d369a-2ac8-44a5-8600-5eecf9686958)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Achievements Section
+
+![image](https://github.com/user-attachments/assets/97fb7fcb-11a7-4bc4-a5f5-c6b55233db0a)
+
+
+### Footer Section
+
+![image](https://github.com/user-attachments/assets/7198abf6-37ac-4ca8-812f-cdd8c787b6d3)
