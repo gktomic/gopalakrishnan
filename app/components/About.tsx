@@ -15,13 +15,13 @@ export function About() {
             <p className="mt-3 text-md text-gray-100">During my free time, I work on developing web applications using technologies like Angular, React, Tailwind and Bootstrap.</p>
         </div>
         <div className="w-full flex flex-wrap align-items justify-center pt-10 gap-3">
-            <a href="https://www.linkedin.com/in/gkcodez" target={"_blank"}>
+            <a href="https://www.linkedin.com/in/gktomic" target={"_blank"}>
                 <Button
                     bgcolor='bg-sky-700'
                     icon={<FaLinkedin />}
                     text={'Linked In'} />
             </a>
-            <a href="https://github.com/gkcodez" target={"_blank"}>
+            <a href="https://github.com/gktomic" target={"_blank"}>
                 <Button
                     bgcolor='bg-slate-700'
                     icon={<FaGithub />}
